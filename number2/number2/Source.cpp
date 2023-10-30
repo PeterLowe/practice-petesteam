@@ -1,5 +1,6 @@
 // pete
 
+
 #include <iostream>
 int main()
 {
@@ -12,5 +13,9 @@ int main()
 		std::cout << "number is even" << std::endl;
 	}
 
+	if (number % 2 == 1)
+	{
+		std::cout << "number is odd" << std::endl;
+	}
 	return 1;
 }
