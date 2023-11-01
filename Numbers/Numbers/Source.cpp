@@ -1,14 +1,22 @@
 // odd C00301432
+// even C00301432 
 
-#include<iostream>
+#include <iostream>
+
+
 
 int main()
 {
-	int number = 8; //user number
 
-	std::cout << "What is your number :";
-	std::cin >> number;
-	if (number % 2 == 0)
+	int input = 7; // user inputted number 
+	std::cout << "Think of a number ?";
+	std::cin >> input;
+
+	if (input % 2 == 1)
+	{
+		std::cout << "The number was odd" << std::endl;
+	}
+	if (input % 2 == 0)
 	{
 		std::cout << "The number is even" << std::endl;
 	}
